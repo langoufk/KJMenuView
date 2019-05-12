@@ -25,8 +25,7 @@ Pod::Spec.new do |s|
     ss.resources = "KJMenuView/KJDropDownMenu/**/*.{bundle}" # 添加数据资料
   end
   
-  s.frameworks = 'Foundation','UIKit'#,'QuartzCore','Accelerate'#,'AssetsLibrary','MobileCoreServices','CoreFoundation','CoreGraphics','CoreImage','ImageIO','CoreText','SystemConfiguration'
-  # s.dependency "JSONKit", "~> 1.4"
+  s.frameworks = 'Foundation','UIKit'
   
 end
 
